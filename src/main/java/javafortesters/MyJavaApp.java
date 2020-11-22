@@ -2,9 +2,14 @@ package javafortesters;
 
 public class MyJavaApp {
 
-	public static void main(String[] args) {
-		System.out.println("My name is MM");
+	private String name;
+	
+	public MyJavaApp(String nm) {
+		name = nm;
 	}
 	
+	public void printMyName() {
+		System.out.println("My name is " + name);
+	}
 	
 }
